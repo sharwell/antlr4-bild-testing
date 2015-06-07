@@ -1,0 +1,11 @@
+sudo: false
+language: java
+script:
+  - cd antlr4
+  - ./bild.py clean
+  - ./bild.py mkjars
+  - ./bild.py tests
+jdk:
+  - openjdk6
+  - oraclejdk7
+  - oraclejdk8
