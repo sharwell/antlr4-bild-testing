@@ -3,7 +3,7 @@ language: java
 script:
   - cd antlr4
   - ./bild.py clean
-  - ./bild.py mkjars
+  - ./bild.py mkjar
   - ./bild.py tests
 jdk:
   - openjdk6
