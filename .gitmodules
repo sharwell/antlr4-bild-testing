@@ -1,6 +1,6 @@
 [submodule "antlr4"]
 	path = antlr4
-	url = https://github.com/antlr/antlr4.git
+	url = https://github.com/sharwell/antlr4.git
 [submodule "antlr4-csharp"]
 	path = antlr4-csharp
 	url = https://github.com/antlr/antlr4-csharp.git

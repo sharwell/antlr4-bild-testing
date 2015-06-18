@@ -2,9 +2,7 @@ sudo: false
 language: java
 script:
   - cd antlr4
-  - ./bild.py clean
-  - ./bild.py mkjar
-  - ./bild.py tests
+  - mvn verify -Dantlr.testinprocess=true -DJDK_SOURCE_ROOT=../runtime/Java/src -Dperformance.package=
 jdk:
   - openjdk6
   - oraclejdk7
